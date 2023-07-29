@@ -1,1 +1,24 @@
+In SQL, the 'Create Database' statement is a first step for storing the structured data in the database.
+Syntax of Create Database statement in SQL
 
+CREATE DATABASE Database_Name;  
+In this syntax, Database_Name specifies the name of the database which we want to create in the system. We have to type the database name in query just after the 'Create Database' keyword.
+
+It is also possible to check the all the existing datbases in the system 
+syntax for the showing existing databases in the system are
+ show datbases;
+
+Drop databases-this operation is used to delete any particular datbases from datbase managment system
+syntax for the deletion of the databases from the system are
+Drop Database_Name;
+In this syntax, Database_Name specifies the name of the database which we want to Delete in the system. We have to type the database name in query just after the 'Create Database' keyword.
+
+Use datbase-This command is used to specify the system that user is want to use any specific datbases
+syntax for using the databases is :
+use Database_Name;
+
+Renaming database-This command is used to rename a database which is already existing in the system
+with a particular name
+syntax for renaming databases is:
+ALTER DATABASE old_database_name RENAME TO new_database_name;
+Replace old_database_name with the current name of the database you want to modify, and new_database_name with the desired new name.

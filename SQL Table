@@ -1,0 +1,23 @@
+Table is a collection of data, organized in terms of rows and columns. In DBMS term, table is known as relation and row as tuple.
+Syntax:
+create table "tablename"  
+("column1" "data type",  
+"column2" "data type",  
+...  
+"columnN" "data type"); 
+
+Drop table:
+This is used to delete the table from a database.
+syntax:
+Drop table Table_name;
+
+Delete table:This is used to delete row/column from a table.
+syntax:
+DELETE FROM table_name [WHERE condition];  
+
+Truncate table:This is used to delete all  the row in the table and free up the space.
+syntax:
+truncate table_name;
+
+Difference b/w DROP and TRUNCATE statements
+When you use the drop statement it deletes the table's row together with the table's definition so all the relationships of that table with other tables will no longer be valid.
